@@ -7,11 +7,26 @@
  The greeting should read: "Hello! My name is Carlos Stevenson and I am 18 years old."
 */
 
+// const firstName = "Joseph";
+// const lastName = "Joestar";
+// const thisYear = 1990;
+// const birthYear = 1965;
+// const fullName = firstName + " " + lastName
+// const age = thisYear - birthYear
+
+// const greeting = "Hello! My name is " + fullName + " and I am " + age + " years old."
+
+
+
 // Add your code right below, good luck!
+const firstName = "Joseph";
+const lastName = "Joestar";
+const thisYear = 1990;
+const birthYear = 1965;
+const fullName = firstName + " " + lastName
+const age = thisYear - birthYear
 
-
-
-
+const greeting = `Hello! My name is ${fullName} and I am ${age} years old.`
 
 // Do not change this
 module.exports = {
